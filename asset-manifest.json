@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/BayView/static/css/main.f920d726.css",
+    "main.js": "/BayView/static/js/main.2fad7693.js",
+    "static/js/787.5281b23c.chunk.js": "/BayView/static/js/787.5281b23c.chunk.js",
+    "static/media/b2.png": "/BayView/static/media/b2.db021a7f857dd5337363.png",
+    "static/media/headerDoc.png": "/BayView/static/media/headerDoc.9ea2ce94aab0eccf0b76.png",
+    "static/media/PICTURE OF DOCTOR.png": "/BayView/static/media/PICTURE OF DOCTOR.a5327ea6fcc6501bcf6c.png",
+    "static/media/image 9.png": "/BayView/static/media/image 9.7e4160c45efc6c9e0110.png",
+    "static/media/doctor2.png": "/BayView/static/media/doctor2.6b547107947099c8b16d.png",
+    "static/media/doctor1.png": "/BayView/static/media/doctor1.01b514813a2cde57902b.png",
+    "static/media/Frame 1.svg": "/BayView/static/media/Frame 1.6dffbb9850e65adc5cef87cd6cf86eb1.svg",
+    "static/media/doctor3.png": "/BayView/static/media/doctor3.ca8fcc8f7ae563dfdcdf.png",
+    "static/media/person_icon.svg": "/BayView/static/media/person_icon.eea1fb8765f50a798027131c576aad35.svg",
+    "static/media/person_icon_two.svg": "/BayView/static/media/person_icon_two.0328703264fa9094332efed37763f6bc.svg",
+    "static/media/Frame 4.svg": "/BayView/static/media/Frame 4.ce412dd744a964581bc218cc4e13c8bf.svg",
+    "static/media/heart.svg": "/BayView/static/media/heart.dae72f6488e225b753405bdbb532d1b1.svg",
+    "static/media/Frame 33.svg": "/BayView/static/media/Frame 33.2243d508a7d33d1453a66db1a79c0a2c.svg",
+    "static/media/Frame 28.svg": "/BayView/static/media/Frame 28.e5a80045cc7e65ee317f59ba0f1d6598.svg",
+    "static/media/pdf-icon.svg": "/BayView/static/media/pdf-icon.e926aa1920534528788b7d64eec9f31e.svg",
+    "static/media/phone-icon.svg": "/BayView/static/media/phone-icon.79d0c9441df1aba08c7fb34987c98c3a.svg",
+    "static/media/mail-icon.svg": "/BayView/static/media/mail-icon.718f7d91c31f1ef10bcb8408095355ed.svg",
+    "static/media/location-icon.svg": "/BayView/static/media/location-icon.26dfce9dd1d97242d176514412f20c40.svg",
+    "static/media/veins.svg": "/BayView/static/media/veins.e49817c6975061169d46ab53be3bfa06.svg",
+    "index.html": "/BayView/index.html",
+    "static/media/quote-icon.svg": "/BayView/static/media/quote-icon.ba44fdc5e81f990810e156180f5b0408.svg",
+    "main.f920d726.css.map": "/BayView/static/css/main.f920d726.css.map",
+    "main.2fad7693.js.map": "/BayView/static/js/main.2fad7693.js.map",
+    "787.5281b23c.chunk.js.map": "/BayView/static/js/787.5281b23c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f920d726.css",
+    "static/js/main.2fad7693.js"
+  ]
+}
