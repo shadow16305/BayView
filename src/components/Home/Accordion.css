@@ -1,0 +1,19 @@
+/* Define your slide-in and slide-out animations */
+.slide-enter {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.slide-enter-active {
+  max-height: 500px; /* Adjust the maximum height as needed */
+  transition: max-height 2s;
+}
+
+.slide-exit {
+  max-height: 500px; /* Adjust the maximum height as needed */
+}
+
+.slide-exit-active {
+  max-height: 0;
+  transition: max-height 2s;
+}
