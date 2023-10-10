@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import Header from "./Header";
 import About from "./About";
-import Services from "./Services";
 import Facilities from "./Facilities";
 import WorkHours from "./WorkHours";
 import SavedHearts from "./SavedHearts";
@@ -14,7 +13,6 @@ const Home = () => {
     <Fragment>
       <Header />
       <About />
-      <Services />
       <Facilities />
       <WorkHours />
       <SavedHearts />

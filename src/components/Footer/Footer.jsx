@@ -5,20 +5,12 @@ import logo from "../../assets/Frame 1.svg";
 const Footer = () => {
   return (
     <Fragment>
-      <div className="container mx-auto flex flex-col lg:flex-row justify-center gap-20 px-14 py-20">
+      <div className="container mx-auto flex flex-col lg:flex-row justify-center gap-20 px-14 py-16">
         <div className="flex flex-col gap-10">
           <div className="flex justify-center lg:justify-start gap-6">
             <a href="">
               <img src={logo} alt="" />
             </a>
-            <div className="flex flex-col justify-end">
-              <p className="text-neonCyan font-['DM_Sans'] font-medium text-[20px] lg:text-[32px] line-height-[58px]">
-                Prime Care
-              </p>
-              <p className="text-xl font-['DM_Sans'] text-black font-medium">
-                Walk-in Clinic
-              </p>
-            </div>
           </div>
           <p className="text-[20px] text-center lg:text-start text-[#403634] lg:max-w-[439px]">
             Lorem Ipsum is simply dummy text of the typesetting industry.

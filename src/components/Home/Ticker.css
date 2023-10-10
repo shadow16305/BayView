@@ -22,7 +22,7 @@
   }
 }
 .hmove {
-  animation: tickerh linear 20s infinite;
+  animation: tickerh linear 24s infinite;
 }
 
 .dot {

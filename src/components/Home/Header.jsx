@@ -21,7 +21,7 @@ const Header = () => {
             <div className="mt-4">
               <a
                 href="#contact"
-                className="uppercase text-white bg-neonCyan px-8 py-4 rounded-[50px] text-xl hover:bg-[#0790FEB3] transition-[0.25s]"
+                className="uppercase text-white bg-neonCyan px-6 py-3 rounded-[50px] text-xl hover:bg-[#0790FEB3] transition-[0.25s]"
               >
                 get appointment
               </a>

@@ -12,25 +12,25 @@ const Team = () => {
           OUR MOTIVATED TEAM
         </span>
         <h2 className="text-center">Meet Our Skilled Team</h2>
-        <div className="flex flex-col lg:flex-row lg:items-center text-center gap-20">
+        <div className="flex flex-col lg:flex-row lg:items-center text-center gap-28">
           <div className="flex flex-col justify-center gap-3">
-            <img src={doctor_one} alt="" />
+            <img src={doctor_one} width={240} height={300} alt="" />
             <h3>Dr. Rihanna Ramirez</h3>
-            <p className="text-2xl text-neonCyan font-['Quicksand']">
+            <p className="text-xl text-neonCyan font-['Quicksand']">
               GYNECOLOGY
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            <img src={doctor_two} alt="" />
+            <img src={doctor_two} width={240} height={300} alt="" />
             <h3>Dr. Rihanna Ramirez</h3>
-            <p className="text-2xl text-neonCyan font-['Quicksand']">
+            <p className="text-xl text-neonCyan font-['Quicksand']">
               GYNECOLOGY
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            <img src={doctor_three} className="h-[389px]" alt="" />
+            <img src={doctor_three} width={270} height={300} alt="" />
             <h3>Dr. Rihanna Ramirez</h3>
-            <p className="text-2xl text-neonCyan font-['Quicksand']">
+            <p className="text-xl text-neonCyan font-['Quicksand']">
               GYNECOLOGY
             </p>
           </div>

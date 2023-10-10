@@ -14,13 +14,6 @@ const Contact = () => {
         className="container mx-auto flex flex-col items-center gap-12 lg:gap-20 py-12"
         id="contact"
       >
-        <div className="flex flex-col items-center justify-center w-full lg:w-[1240px] lg:h-[400px] bg-neonCyan lg:rounded-[60px] py-6 lg:py-0 gap-4 lg:gap-12">
-          <h1 className="text-white text-2xl lg:text-[80px]">Contact Us</h1>
-          <p className="text-white text-[14px] lg:text-xl font-['Quicksand'] max-w-[340px] lg:max-w-[723px] text-center">
-            It is a broead discipline thar includes various branches and
-            specialties aimed at promoting health and well-being.
-          </p>
-        </div>
         <div className="flex flex-col-reverse lg:flex-row lg:justify-center lg:items-end gap-20">
           <div>
             <Map />

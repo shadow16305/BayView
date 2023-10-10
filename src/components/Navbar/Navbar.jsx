@@ -19,7 +19,7 @@ const Navbar = () => {
       {/* DESKTOP */}
       <nav className="shadow-slate-300 shadow-md bg-white hidden lg:block w-full fixed z-10">
         <div className="container mx-auto flex justify-between items-center lg:px-14 py-2">
-          <img src={logo} alt="" />
+          <img src={logo} width={164} height={80} alt="" />
           <ul className="list-none flex uppercase gap-10 text-xl font-['DM_Sans'] leading-[35.8px]">
             {navLinks.map((elem) => (
               <li key={elem.id}>
@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
           <div className="flex gap-4">
             <img src={pdf_icon} alt="" />
-            <button className="bg-neonCyan text-white text-[16px] font-medium rounded-3xl px-6 py-3 hover:bg-[#0790FEB3] transition-[0.25s] uppercase">
+            <button className="bg-neonCyan text-white text-[16px] font-medium rounded-3xl px-5 py-2 hover:bg-[#0790FEB3] transition-[0.25s] uppercase">
               Download Requisition
             </button>
           </div>

@@ -6,7 +6,7 @@ function AccordionItem({ title, content, icon }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
-    setIsOpen(!isOpen);
+    setIsOpen((currentState) => !currentState);
   };
 
   return (
@@ -21,7 +21,11 @@ function AccordionItem({ title, content, icon }) {
         </div>
       </div>
       <CSSTransition in={isOpen} timeout={300} classNames="slide" unmountOnExit>
-        <p className="text-[20px] font-['DM_Sans'] text-[#817A79B5] lg:w-[518px]">
+        <p
+          className={`text-[20px] font-['DM_Sans'] text-[#817A79B5] lg:w-[518px] ${
+            isOpen ? "opacity-100" : "opacity-0"
+          } transition-all duration-1000`}
+        >
           {content}
         </p>
       </CSSTransition>
