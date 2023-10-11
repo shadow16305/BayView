@@ -1,7 +1,5 @@
 import React, { Fragment } from "react";
 
-import image from "../../assets/image 9.png";
-
 const cards = [
   {
     id: 0,

@@ -10,7 +10,7 @@ const WorkHours = () => {
         </span>
         <h2>When Are We Open </h2>
         <div className="flex flex-col items-center lg:items-start lg:flex-row lg:relative gap-10 lg:gap-0 lg:px-[300px] lg:mt-6">
-          <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-start px-9 py-6 lg:py-6 gap-10 rounded-[40px] lg:rounded-[60px] bg-neonCyan w-[340px] lg:w-[360px] lg:h-[320px] lg:absolute lg:top-[45%] lg:left-0">
+          <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-start px-9 py-6 gap-10 rounded-[40px] lg:rounded-[60px] bg-neonCyan w-[340px] lg:w-[360px] lg:h-[320px] lg:absolute lg:top-[45%] lg:left-0">
             <h4 className="text-white">Appointment</h4>
             <p className="text-[14px] lg:text-[20px] font-semibold text-white font-['Quicksand'] lg:w-[342px]">
               Medical technologies to provide appropriate care and improve
