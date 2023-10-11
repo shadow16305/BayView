@@ -47,7 +47,10 @@ const items = [
 const Facilities = () => {
   return (
     <Fragment>
-      <div className="container mx-auto flex flex-col lg:flex-row lg:justify-center gap-12 py-12">
+      <div
+        className="container mx-auto flex flex-col lg:flex-row lg:justify-center gap-12 py-12 scroll-mt-10"
+        id="services"
+      >
         <div className="flex flex-col items-center lg:items-start text-center lg:text-start gap-6 lg:gap-10 justify-center">
           <span className="text-neonCyan text-[16px] bg-[#F4F6F7] p-2 w-[200px] rounded-md text-center font-bold">
             FACILITIES WE HAVE
@@ -64,7 +67,7 @@ const Facilities = () => {
               href="#contact"
               className="px-6 py-3 bg-neonCyan text-white text-xl font-['DM_Sans'] rounded-3xl hover:bg-[#0790FEB3] transition-[0.25s]"
             >
-              CALL US
+              Call us
             </a>
           </div>
         </div>

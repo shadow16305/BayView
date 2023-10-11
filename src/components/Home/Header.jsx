@@ -13,17 +13,17 @@ const Header = () => {
             <h1 className="max-w-[342px] lg:max-w-[598px]">
               Prime Care Walk-in Clinic
             </h1>
-            <p className="body-1 max-w-[342px] lg:max-w-[598px] leading-[28.64px] lg:leading-normal">
+            <p className="body-1 max-w-[342px] lg:max-w-[500px] leading-[28.64px] lg:leading-normal">
               We are a multimodality imaging clinic and have been operating for
               many years. Our staff is caring and highly qualified. Our goal is
               to provide timely and high quality imaging exams to our patients.
             </p>
-            <div className="mt-4">
+            <div className="mt-8">
               <a
                 href="#contact"
-                className="uppercase text-white bg-neonCyan px-6 py-3 rounded-[50px] text-xl hover:bg-[#0790FEB3] transition-[0.25s]"
+                className="text-white bg-neonCyan px-[40px] py-5 rounded-[60px] text-xl hover:bg-[#0790FEB3] transition-[0.25s]"
               >
-                get appointment
+                Get appointment
               </a>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Header = () => {
       </div>
       <div className="hwrap">
         <div className="flex flex-row bg-neonCyan hmove">
-          <div className="flex items-center gap-8 hitem">
+          <div className="flex items-center gap-4 hitem">
             <div className="dot"></div>
             <h4>HAPPY PATIENTS </h4>
             <div className="dot"></div>
@@ -48,7 +48,7 @@ const Header = () => {
             <div className="dot"></div>
             <h4>X-RAY SERVICES</h4>
           </div>
-          <div className="flex items-center gap-8 hitem">
+          <div className="flex items-center gap-4 hitem">
             <div className="dot"></div>
             <h4>HAPPY PATIENTS </h4>
             <div className="dot"></div>

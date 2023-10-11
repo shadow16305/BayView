@@ -17,8 +17,8 @@ const Navbar = () => {
   return (
     <Fragment>
       {/* DESKTOP */}
-      <nav className="shadow-slate-300 shadow-md bg-white hidden lg:block w-full fixed z-10">
-        <div className="container mx-auto flex justify-between items-center lg:px-14 py-2">
+      <nav className="shadow-slate-300 shadow-sm bg-white hidden lg:block w-full fixed z-10">
+        <div className="container mx-auto flex justify-between items-center lg:px-14 py-4">
           <img src={logo} width={164} height={80} alt="" />
           <ul className="list-none flex uppercase gap-10 text-xl font-['DM_Sans'] leading-[35.8px]">
             {navLinks.map((elem) => (
@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
           <div className="flex gap-4">
             <img src={pdf_icon} alt="" />
-            <button className="bg-neonCyan text-white text-[16px] font-medium rounded-3xl px-5 py-2 hover:bg-[#0790FEB3] transition-[0.25s] uppercase">
+            <button className="bg-neonCyan text-white text-[16px] font-medium rounded-3xl px-5 py-2 hover:bg-[#0790FEB3] transition-[0.25s]">
               Download Requisition
             </button>
           </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
       </nav>
 
       {/* MOBILE */}
-      <div className="flex justify-between w-screen items-center lg:hidden py-2 px-6 fixed z-30 bg-white shadow-lg">
+      <div className="flex justify-between w-screen items-center lg:hidden py-2 px-6 fixed z-30 bg-white shadow-md">
         <h3>
           <img src={logo} alt="" />
         </h3>
@@ -70,22 +70,29 @@ const Navbar = () => {
           isOpen
             ? "left-0 h-screen w-screen"
             : "left-[-1000px] h-screen w-screen"
-        } transition-all duration-700 fixed bg-neonCyan z-20 pt-48 lg:hidden`}
+        } transition-all duration-700 fixed bg-neonCyan z-20 lg:hidden`}
       >
-        <ul className="list-none uppercase gap-16 flex flex-col items-center justify-center">
-          {navLinks.map((elem) => (
-            <li key={elem.id}>
-              <a
-                href={elem.href}
-                className="flex gap-2 text-white text-sm font-medium"
-                onClick={() => setIsOpen(false)}
-              >
-                {elem.name}
-                {elem.icon}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <div className="flex flex-col items-center justify-center h-full">
+          <ul className="list-none uppercase gap-16 flex flex-col items-center justify-center">
+            {navLinks.map((elem) => (
+              <li key={elem.id}>
+                <a
+                  href={elem.href}
+                  className="flex gap-2 text-white text-md font-medium"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {elem.name}
+                  {elem.icon}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div>
+            <button className="bg-white px-5 py-3 mt-16 text-neonCyan text-md font-semibold rounded-[50px]">
+              Download requisition
+            </button>
+          </div>
+        </div>
       </div>
     </Fragment>
   );

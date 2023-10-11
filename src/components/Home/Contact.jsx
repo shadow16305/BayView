@@ -11,19 +11,19 @@ const Contact = () => {
   return (
     <Fragment>
       <div
-        className="container mx-auto flex flex-col items-center gap-12 lg:gap-20 py-12"
+        className="container mx-auto flex flex-col items-center gap-12 lg:gap-20 py-12 scroll-mt-10"
         id="contact"
       >
         <div className="flex flex-col-reverse lg:flex-row lg:justify-center lg:items-end gap-20">
           <div>
             <Map />
           </div>
-          <div className="flex flex-col px-4 lg:px-0 gap-6">
+          <div className="flex flex-col items-center lg:items-start px-4 lg:px-0 gap-6">
             <span className="text-neonCyan text-base bg-[#F4F6F7] p-2 w-[142px] rounded-md text-center font-bold">
               Contact Us
             </span>
             <h2>Get in touch</h2>
-            <p className="max-w-[342px] lg:max-w-[580px]">
+            <p className="max-w-[342px] lg:max-w-[580px] text-center lg:text-start">
               Medical, or medicine, refers to the field of healthcare that
               encompasses the diagnosis, treatment, and prevention of diseases
               and injuries in humans. It is a broad discipline that includes
@@ -33,22 +33,28 @@ const Contact = () => {
               <img src={phone_icon} className="w-[48px] h-[48px]" alt="" />
               <div className="flex flex-col justify-center">
                 <h3>Call us</h3>
-                <p className="text-base">(416) 997 - 5559</p>
-                <p className="text-base">(365) 509 - 2982</p>
+                <p className="text-base w-[210px] lg:w-[384px]">
+                  (416) 997 - 5559
+                </p>
+                <p className="text-base w-[210px] lg:w-[384px]">
+                  (365) 509 - 2982
+                </p>
               </div>
             </div>
             <div className="flex flex-row gap-3">
               <img src={mail_icon} className="w-[48px] h-[48px]" alt="" />
               <div className="flex flex-col justify-center">
                 <h3>Mail us</h3>
-                <p className="text-base">info@primecareclinic.ca</p>
+                <p className="text-base w-[210px] lg:w-[384px]">
+                  info@primecareclinic.ca
+                </p>
               </div>
             </div>
             <div className="flex flex-row gap-3">
               <img src={location_icon} className="w-[48px] h-[48px]" alt="" />
               <div className="flex flex-col justify-center">
                 <h3>Our location</h3>
-                <p className="text-base lg:max-w-[384px]">
+                <p className="text-base w-[210px] lg:w-[384px]">
                   9160 Bayview Ave, Unit b01, Richmond Hill, ON L4B 0E6
                 </p>
               </div>

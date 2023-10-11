@@ -5,7 +5,7 @@ const About = () => {
   return (
     <Fragment>
       <div
-        className="container mx-auto flex flex-col items-center lg:flex-row lg:justify-center py-12 gap-10 lg:gap-40"
+        className="container mx-auto flex flex-col items-center lg:flex-row lg:justify-center py-12 gap-10 lg:gap-40 scroll-mt-10"
         id="about"
       >
         <img

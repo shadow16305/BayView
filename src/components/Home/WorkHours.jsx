@@ -10,7 +10,7 @@ const WorkHours = () => {
         </span>
         <h2>When Are We Open </h2>
         <div className="flex flex-col items-center lg:items-start lg:flex-row lg:relative gap-10 lg:gap-0 lg:px-[300px] lg:mt-6">
-          <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-start px-8 py-6 lg:py-6 gap-10 rounded-[60px] bg-neonCyan w-[340px] lg:w-[360px] lg:h-[280px] lg:absolute lg:top-[45%] lg:left-0">
+          <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-start px-9 py-6 lg:py-6 gap-10 rounded-[40px] lg:rounded-[60px] bg-neonCyan w-[340px] lg:w-[360px] lg:h-[320px] lg:absolute lg:top-[45%] lg:left-0">
             <h4 className="text-white">Appointment</h4>
             <p className="text-[14px] lg:text-[20px] font-semibold text-white font-['Quicksand'] lg:w-[342px]">
               Medical technologies to provide appropriate care and improve
@@ -19,9 +19,9 @@ const WorkHours = () => {
             <div>
               <a
                 href="#contact"
-                className="uppercase rounded-3xl px-8 py-3 bg-white text-black hover:bg-[#0790FEB3] hover:text-white transition-[0.25s]"
+                className="rounded-3xl px-8 py-3 bg-white text-black hover:bg-[#0790FEB3] hover:text-white transition-[0.25s]"
               >
-                book now
+                Book now
               </a>
             </div>
           </div>
@@ -30,7 +30,7 @@ const WorkHours = () => {
             className="lg:w-[420px] lg:h-[380px] w-[340px] h-[250px]"
             alt=""
           />
-          <div className="flex flex-col justify-center p-5 px-8 bg-[#F4F6F7] rounded-[60px] gap-8 w-[340px] lg:w-[360px] lg:h-[300px] lg:absolute lg:top-[-10%] lg:right-0">
+          <div className="flex flex-col justify-center p-5 px-10 bg-[#F4F6F7] rounded-[40px] lg:rounded-[60px] gap-8 w-[340px] lg:w-[360px] lg:h-[320px] lg:absolute lg:top-[-10%] lg:right-0">
             <h4 className="text-black">Open Hours</h4>
             <p className="lg:max-w-[380px]">
               Note that hours of operation may differ during public holidays.
