@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/BayView/static/css/main.97058452.css",
-    "main.js": "/BayView/static/js/main.c5d1b313.js",
+    "main.css": "/BayView/static/css/main.2b443eae.css",
+    "main.js": "/BayView/static/js/main.a169d0eb.js",
     "static/js/787.5281b23c.chunk.js": "/BayView/static/js/787.5281b23c.chunk.js",
     "static/media/b2.png": "/BayView/static/media/b2.db021a7f857dd5337363.png",
     "static/media/headerDoc.png": "/BayView/static/media/headerDoc.9ea2ce94aab0eccf0b76.png",
     "static/media/PICTURE OF DOCTOR.png": "/BayView/static/media/PICTURE OF DOCTOR.a5327ea6fcc6501bcf6c.png",
-    "static/media/image 9.png": "/BayView/static/media/image 9.7e4160c45efc6c9e0110.png",
     "static/media/doctor2.png": "/BayView/static/media/doctor2.6b547107947099c8b16d.png",
     "static/media/doctor1.png": "/BayView/static/media/doctor1.01b514813a2cde57902b.png",
     "static/media/Frame 1.svg": "/BayView/static/media/Frame 1.6dffbb9850e65adc5cef87cd6cf86eb1.svg",
@@ -24,12 +23,12 @@
     "static/media/veins.svg": "/BayView/static/media/veins.e49817c6975061169d46ab53be3bfa06.svg",
     "index.html": "/BayView/index.html",
     "static/media/quote-icon.svg": "/BayView/static/media/quote-icon.ba44fdc5e81f990810e156180f5b0408.svg",
-    "main.97058452.css.map": "/BayView/static/css/main.97058452.css.map",
-    "main.c5d1b313.js.map": "/BayView/static/js/main.c5d1b313.js.map",
+    "main.2b443eae.css.map": "/BayView/static/css/main.2b443eae.css.map",
+    "main.a169d0eb.js.map": "/BayView/static/js/main.a169d0eb.js.map",
     "787.5281b23c.chunk.js.map": "/BayView/static/js/787.5281b23c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97058452.css",
-    "static/js/main.c5d1b313.js"
+    "static/css/main.2b443eae.css",
+    "static/js/main.a169d0eb.js"
   ]
 }
